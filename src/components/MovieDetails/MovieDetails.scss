@@ -1,0 +1,73 @@
+@import '../../common/colors.scss';
+
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $font-primary;
+}
+
+.details {
+    margin: 20px;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+}
+
+.info {
+    color: $font-primary;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+        color: $font-secondary;
+        font-size: 40px;
+    }
+}
+
+.name-rating {
+    display: flex;
+    gap: 20px;
+    margin-top: 6px;
+    align-items: center;
+    color: $font-text;
+    font-size: 15px;
+}
+
+.dates {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.pHover {
+    color: $font-desc;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    p {
+        width: 150px;
+    }
+
+    span {
+        color: $font-secondary;
+        margin-left: 5px;
+    }
+
+}
+
+.description {
+    margin-top: 40px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: $font-desc;
+}
